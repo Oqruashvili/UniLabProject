@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8F9;
+}
+
+header{
+    background-color: #F6F8F9;
+    height: 50px;
+
+}
+.logo{
+    width: 38px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav{ 
+    margin-left: 1083;  
+    margin-top: -20px; 
+    opacity: 0.5;
+}
+li , a{
+    color: #343638;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Profile{
+    margin-top: -21px;
+    margin-left: 1390px;
+   
+}
+.discovery, .photos, .contact{
+    margin-left: 10px;
+} 
+.Story-WorldNews{
+    display: flex;
+    align-items: center;
+    margin-top: 92px;
+    margin-left: 263px;
+    
+}
+.HomeIcon{
+    width: 16px;
+    height: 16px;
+}
+.story, .Divider ,.WorldNews{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+.Filter{
+    width: 40px;
+    height: 40px;
+    background-color: #EBEDED;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #A6ADB4;
+    margin-left: 940px;
+    
+}
+.FilterIcon{
+    width: 16px;
+    height: 16px;  
+    margin-top: 11px; 
+}
+.container{
+    width: 1160px;
+    margin: auto;
+}
+.CardMother{
+    display: flex;
+}
+.Card{
+    position: relative;
+}
+.MountainImg{
+    width: 580px;
+    height: 500px;
+    display: block;
+}
+.WorldNewsTitle{
+    position : absolute;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 155px;
+    color: white;
+    margin-left: 110px;
+    width: 360px;   
+}
+.SmallDivider{
+    position: absolute;
+    top: 203px;
+    left: 270px;
+}
+.CardDescribe{
+    position: absolute;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 223px;
+    left: 110px;
+    text-align: center;
+    color: white;
+    opacity: 1;
+}
+.ProfilePicture1{
+    position: absolute;
+    top: 305px;
+    left: 270px;
+}
+.Card2{
+    position: relative;
+
+}
+.WhiteBackground{
+    display: block;
+    width: 580px;
+    height: 500px;
+}
+.SelectDate{
+    position: absolute;
+    top: 127px;
+    left: 110px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.SelectBox{
+    position:absolute;
+    background-color: white;
+    top: 150px;
+    left: 110px;
+    width: 360px;
+    height: 40px;   
+    border-radius: 5px;
+}
+.EnterKeyWord{
+    position: absolute;
+    top: 230px;
+    left: 110px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.WriteBox{
+    position:absolute;
+    background-color: white;
+    top: 253px;
+    left: 110px;
+    width: 360px;
+    height: 40px;   
+    border-radius: 5px;
+}
+.btn{
+    position: absolute;
+    width: 134px;
+    height: 40px;
+    top: 333px;
+    left: 110px;
+    background-color: #FA6980;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: white;
+}
+.Freespace{
+    height: 40px;
+}
+.SecondPart{
+    display: flex;
+}
+.SecondProfilePicture{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+.TextUnderProfile{
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.describeText{
+    margin-left: 40px;
+    color: #A6ADB4;
+    margin-top: 41px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.SecondTextDescribe{
+    margin-left: 40px;
+    color: #A6ADB4;
+    margin-top: 41px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ElephantDescribeText{
+    color: #A6ADB4;
+    margin-top: 40px;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footercontainer{
+    height: 200px;
+    background-color: #A6ADB4;
+
+}
+.row{
+    display: flex;
+    
+    
+}
+.footer-col{
+    display: flex;
+    text-decoration: none;
+    margin-top: 58px;
+}
+.Nav2 , .Nav3, .Nav4{
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #CBD0D3;
+    margin-left: 57px;
+
+    
+}
+.WhiteLogo{
+   width: 38px;
+   height: 13px;  
+   margin-top: 8px;
+   margin-left: 142px;
+}
+
+.EmailBox{
+   background-color: #A6ADB4;
+   width: 262px;
+   height: 40px;
+   margin-left: 395px;
+   margin-top: 58px;
+   border-radius: 3px;
+   color: black;
+}
+.EmailText{
+   font-size: 11px;
+   color: #CBD0D3;
+   margin-left: 960px;
+   width: 243px;
+   height: 9px;
+   margin-top: -39px;
+}
+::placeholder{
+   color: #CBD0D3;
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.twitter , .Instagram ,.google{
+   margin-left: 32px;
+}
+.social_links{
+   margin-left: 1294px;
+   margin-top: -75px;
+}
+.FreeSpace2{
+   height: 417px;
+   background-color: #F6F8F9;
+}

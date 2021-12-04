@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #F6F8F9;
+    height: 50px;
+
+}
+.logo{
+    width: 38px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav{ 
+    margin-left: 1083;  
+    margin-top: -20px; 
+    opacity: 0.5;
+}
+li , a{
+    color: #343638;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Profile{
+    margin-top: -21px;
+    margin-left: 1390px;
+   
+}
+
+.discovery, .photos, .contact{
+    margin-left: 10px;
+}  
+
+.selector{
+    margin-left: 840px;
+    margin-top: -600px;
+    width: 600px;
+    height: 450px;
+    position: relative;
+ 
+}
+.BackGround{
+    display: block;
+}
+.MoreNewsText{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+.leftArrow{
+    margin-left: 173px;
+}
+.travelText{
+    position: absolute;
+    top: 251px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FA6980;
+}
+.ArticletitleText{
+    position: absolute;
+    top: 285px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.ArticleDescribe{
+    position: absolute;
+    top: 311px;
+    left: 100px;
+    color: #A6ADB4;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+.TechnologyText{
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FA6980;
+}
+.Technologytitle{
+    position: absolute;
+    top: 454px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.TechnologyDescribe{
+    position: absolute;
+    top: 480px;
+    left: 100px;
+    color: #A6ADB4;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+    
+
+
+.RoadImage{
+    position: relative;
+}
+.NewsPhoto{
+    display: block;
+}
+
+.TextRoadImg{
+    position: absolute;
+    top: 187px;
+    left: 140px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;  
+}
+.RoadImg-title{
+    position: absolute;
+    top: 288px;
+    left: 140px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.RoadImg-Describe{
+    position: absolute;
+    top: 322px;
+    left: 140px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+button{
+    background-color: #FA6980;
+    text-align: center;
+    border-radius: 5px;
+    width: 134px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnText{
+    font-size: 11px;
+    color: white;
+}
+
+.Title-trending{
+    margin-top: 140px;
+    display: flex;      
+}
+
+.trending{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 45px;
+}
+
+/* Cards */
+.container{
+    background-color: F6F8F9 ;
+    margin: 0 auto;
+  
+}
+.MotherContainer{
+    width: 1160px;  
+    margin:auto;
+      
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+       
+}
+.SecondleftArrow{
+    margin-left: 975px;
+}
+
+.CardFirst, .CardSecond, .CardThierd{
+    height: 350px;
+    background-color:white;
+}
+.CardDescribe1, .CardDescribe2, .CardDescribe3{
+    opacity: 0.5;
+    line-height: 1.6;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.CardText1, .CardText2, .CardText3, .CardDescribe1, .CardDescribe2, .CardDescribe3, .Time1, .Time2, .Time3{
+    margin-left: 30px;
+}
+.CardText1, .CardText2, .CardText3{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HappeningNow */
+.MotherContainer2{
+   display: flex;
+   justify-content: center; 
+}
+
+.HappeningNow{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    position: relative;
+    width: 760px;
+    height: 430px;
+}
+.CityImage{
+    display: block;
+}
+.Textcity{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+
+    
+}
+.city-title{
+    position: absolute;
+    top: 288px;
+    left: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.City-Describe{
+    position: absolute;
+    top: 322px;
+    left: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    line-height: 1.6;
+
+}
+/* box 2 */
+.box-2{
+    position: relative;
+    width: 760px;
+    margin-left: 40px;
+    display: flex, block;
+
+
+}
+/* Tavel  box-3 */
+.box-3{
+    position: relative;
+
+    
+}
+.TravelImage{
+    display: block;
+}
+.TextTravel{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+
+}
+.Travel-Title{
+    position: absolute;
+    top: 288px;
+    left: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.Travel-Describe{
+    position: absolute;
+    top: 322px;
+    left: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF; 
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Title-Smalltitle{
+    font-family: sans-serif;
+}
+
+ .Footercontainer{
+     height: 200px;
+     background-color: #A6ADB4;
+
+ }
+ .row{
+     display: flex;
+     
+     
+ }
+ .footer-col{
+     display: flex;
+     text-decoration: none;
+     margin-top: 58px;
+ }
+.Nav2 , .Nav3, .Nav4{
+     padding: 5px;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     color: #CBD0D3;
+     margin-left: 57px;
+
+     
+}
+.WhiteLogo{
+    width: 38px;
+    height: 13px;  
+    margin-top: 8px;
+    margin-left: 142px;
+}
+
+.EmailBox{
+    background-color: #A6ADB4;
+    width: 262px;
+    height: 40px;
+    margin-left: 395px;
+    margin-top: 58px;
+    border-radius: 3px;
+    color: black;
+}
+.EmailText{
+    font-size: 11px;
+    color: #CBD0D3;
+    margin-left: 960px;
+    width: 243px;
+    height: 9px;
+    margin-top: -39px;
+}
+::placeholder{
+    color: #CBD0D3;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.twitter , .Instagram ,.google{
+    margin-left: 32px;
+}
+.social_links{
+    margin-left: 1294px;
+    margin-top: -75px;
+}
+.FreeSpace{
+    height: 100px;
+    background-color: #F6F8F9;
+}
+
+ 
